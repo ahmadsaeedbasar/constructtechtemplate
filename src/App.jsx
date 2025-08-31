@@ -14,6 +14,7 @@ import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import { useTheme } from "./hooks/useTheme";
 import "./index.css";
+import VideoGallery from "./components/Videos";
 function App() {
   const { theme } = useTheme();
 
@@ -37,6 +38,10 @@ function App() {
           <Team />
         </section>
         
+        <section className="app-section">
+          <VideoGallery />
+        </section>
+
         <section className="app-section">
           <Stats />
         </section>

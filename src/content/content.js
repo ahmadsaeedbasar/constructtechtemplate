@@ -21,7 +21,7 @@ export const content = {
       { text: 'Home', href: '#home' },
       { text: 'Features', href: '#features' },
       { text: 'Projects', href: '#projects' },
-      { text: 'Pricing', href: '#pricing' },
+      { text: 'Quotation', href: '#pricing' },
       { text: 'Contact', href: '#contact' },
     ],
     
@@ -159,11 +159,37 @@ export const content = {
       { value: 500, label: 'Team Members', suffix: '+' },
     ],
   },
+
+
+
+  // VIDEO SECTION
+ videos: {
+    title: "Our Projects in Action",
+    subtitle: "See how we transform visions into reality with our construction expertise",
+    items: [
+      {
+        videoUrl: "src/assets/video1.mp4",
+        caption: "Commercial Building Construction",
+        description: "Watch our team complete a 15-story office complex in record time with precision engineering.",
+        duration: "0:45",
+        category: "Commercial"
+      },
+      {
+        videoUrl: "src/assets/video2.mp4",
+        caption: "Residential Complex Project",
+        description: "See how we built a sustainable residential community with modern amenities and green spaces.",
+        duration: "0:20",
+        category: "Residential"
+      }
+    ]
+  },
   
-  // PRICING SECTION
+    
+  
+  // QOUTATION SECTION
   
   pricing: {
-    title: 'Contct And Get a Quote',
+    title: 'Get a Quote',
     subtitle: 'Contact us for a custom quote tailored to your project needs',
     plans: [
       {
@@ -172,12 +198,7 @@ export const content = {
         price: 'Contact',
         period: 'Inquiry',
         features: [
-          'Project Management',
-          'Basic 3D Models',
-          'Email Support',
-          'Up to 5 Team Members',
-          'Standard Quality Assurance',
-          'Sustainable Building Options',
+          
         ],
         cta: 'Mail Us',
       },
@@ -187,12 +208,7 @@ export const content = {
         price: 'Talk',
         period: 'Custoermer Care',
         features: [
-          'Advanced Project Management',
-          'Detailed 3D Models',
-          'Priority Support',
-          'Up to full exosure',
-          'Quality Assurance',
-          'Sustainable Building Options',
+          
         ],
         cta: 'Call Now',
         featured: true,
@@ -203,12 +219,7 @@ export const content = {
         price: 'Meet',
         period: 'Onsite',
         features: [
-          'Complete Project Suite',
-          'Photorealistic 3D Models',
-          '24/7 Dedicated Support',
-          'Unlimited Team Members',
-          'Premium Quality Assurance',
-          'Sustainable Building Consulting',
+          
         ],
         cta: 'Meet Us',
       },
@@ -381,7 +392,7 @@ export const content = {
       { text: 'Home', href: '#home' },
       { text: 'Features', href: '#features' },
       { text: 'Projects', href: '#projects' },
-      { text: 'Pricing', href: '#pricing' },
+      { text: 'Quotation', href: '#pricing' },
       { text: 'Contact', href: '#contact' },
     ],
      social: [
@@ -415,6 +426,6 @@ export const content = {
       phone: '+1 (555) 123-4567',
       address: '123 Tech Avenue, New York, NY 10001',
     },
-    copyright: '© 2023 ConstructTech. All rights reserved.',
+    copyright: '©2025 ConstructTech. All rights reserved.',
   },
 };

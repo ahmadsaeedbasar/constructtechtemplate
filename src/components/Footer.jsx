@@ -1,5 +1,5 @@
 import { content } from "../content/content";
-import logos from "../assets/logos"; // Import logos
+import logos from "../assets/logos/"; // Import logos
 
 const Footer = () => {
   return (
